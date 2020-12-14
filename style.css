@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background: url('/images/bg-intro-desktop.png'), hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wholeContent{
+    display:flex;
+    justify-content: space-evenly;
+    padding-right: 94px;
+    padding-left: 25px;
+}
+
+.header{
+    width: 500px;
+    height: 145px;
+    margin-top: 200px;
+    margin-left: 90px;    
+    color:white;    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: justify;
+    line-height: 1.2; 
+    margin-bottom: 21px;
+    width: 400px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    transform: translateX(-20px);    
+}
+
+.mainFields{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 380px;
+    width: 450px;
+    margin-top: 20px;
+    border-radius: 8px; 
+    -webkit-box-shadow: 1px 6px 3px 0px rgba(0,0,0,0.36); 
+    box-shadow: 1px 6px 3px 0px rgba(0,0,0,0.36);   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;    
+}
+
+.fields{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+    border-radius: 8px;
+    border-color: hsl(246, 25%, 77%);
+    border-width: 1px;
+    border-style: solid;    
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 45px;
+    border-radius: 8px; 
+}
+
+.tryItFree{
+    background-color: hsl(248, 32%, 49%);
+    border-style: none;
+    -webkit-box-shadow: 1px 6px 3px 0px rgba(0,0,0,0.36); 
+    box-shadow: 1px 6px 3px 0px rgba(0,0,0,0.36);
+}
+
+.tryItFreeText{
+    font-weight: 700;
+    
+}
+
+.claimFreeTrial{
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 600;
+    width: 380px;
+    padding: 0;
+    border:0;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: center;
+    -webkit-box-shadow: 1px 3px 3px 0px hsl(154, 54%, 35%);
+    box-shadow: 1px 3px 3px 0px hsl(154, 54%, 35%);
+}
+
+.terms{
+    font-size: 10px;
+    color: hsl(249, 10%, 26%);
+    text-align: center;
+    margin-top:10px;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;    
+}
